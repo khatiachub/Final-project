@@ -1,0 +1,189 @@
+@media(max-width:640px){
+    .footerdiv{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items:flex-start;
+        padding-left: 30px;
+    }
+    .social-divblock{
+        margin-top: 50px;
+    }
+    .footer{
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .li-h5{
+        margin-top: 50px;
+    }
+    .footer-p{
+        width: 270px;
+    }
+    .navdiv{
+        transform: translateX(-180%);
+        transition: transform 0.9s linear;
+        background-color:rgba(121, 141, 255, 0.849);
+        width: 100%;
+        margin-top: 15px;
+        border-bottom: 2px solid #fff;
+        padding-bottom: 5px;
+    }
+    .d-block{
+        transform: translateX(0px);
+    }
+    .burger{
+        display: block;
+    }
+    .burgerdiv{
+        display: block;
+    }
+    .header-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+        margin-top: 10px;
+        margin-right: 15px;
+    }
+    .nav-ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:0 auto;
+    }
+    .ul-li{
+        margin-top: 15px;
+    }
+    .img1{
+        width: 240px;
+        
+    }
+    .img2{
+        width: 180px;
+        left: 1%;
+        
+    }
+    .img3{
+        width: 180px;
+        left: 25%;
+        
+    }
+    .imgblock{
+        width: 300px;
+    }
+}
+
+@media(max-width:768px){
+    .container{
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .wraper{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+    .travel-block{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .touchtitle{
+        font-size: 25px;
+    }
+}
+@media(max-width:1250px){
+    .container{
+        flex-wrap: wrap;
+        max-width: 700px;
+        width: 100%;
+    }
+    .container-child{
+        margin-top: 50px;
+    }
+    
+}
+@media(max-width:1024px){
+    .wraper-block{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .imgblock{
+        margin: auto;
+        margin-top: 10%;
+    }
+    .waterfall-title{
+        text-align: center;
+        font-size: 25px;
+        width: 250px;
+    }
+    .waterfall-descr{
+        text-align: center;
+        font-size: 15px;
+    }
+    .water-block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .slide-block{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .listdiv{
+        margin-top: 20px;
+        margin-right: 38%;
+    }
+    
+}
+@media(max-width:485px){
+    .touchtitle{
+        font-size: 22px;
+    }
+    .li-list{
+        font-size: 25px;
+    }
+    .iconlist{
+        font-size: 25px;
+    }
+    .text{
+        max-width: 300px;
+        width: 100%;
+    }
+    .number{
+        max-width: 300px;
+        width: 100%;
+    }
+    .email{
+        max-width: 300px;
+        width: 100%;
+    }
+    .lname{
+        max-width: 130px;
+        width: 100%;
+    }
+    .form{
+        max-width: 300px;
+        width: 100%;
+    }
+    .formdiv{
+        margin-top: 30%;
+    }
+    .listdiv{
+        margin-left: 10px;
+    }
+}
+@media(max-width:420px){
+    .touchtitle{
+        font-size: 17px;
+    }
+
+}
