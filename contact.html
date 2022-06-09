@@ -12,31 +12,31 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
-    <title>home</title>
+    <title>Contact</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link rel="icon" href="images/favicon.png" type="image/icon type">
+    <link rel="icon" href="images/miami.jpg" type="image/icon type">
 </head>
 <body>
     <header>
         <div class="header-div">
-            <a class="logo" href="http://127.0.0.1:5500/index.html">Tour.</a>
+            <a class="logo" href="index.html">Tour.</a>
             <nav class="navdiv" id="nav-div">
                 <ul class="nav-ul">
                     <li class="ul-li">
-                        <a class="lia" href="http://127.0.0.1:5500/index.html">Home</a>
+                        <a class="lia" href="index.html">Home</a>
                     </li>
                     <li class="ul-li">
-                        <a class="lia" href="http://127.0.0.1:5500/service.html">Services</a>
+                        <a class="lia" href="service.html">Services</a>
                     </li>
                     <li class="ul-li">
-                        <a class="lia" href="http://127.0.0.1:5500/about.html">About</a>
+                        <a class="lia" href="about.html">About</a>
                     </li>
                     <li class="ul-li">
-                        <a class="lia active border" href="http://127.0.0.1:5500/contact.html">Contact Us</a>
+                        <a class="lia active border" href="contact.html">Contact Us</a>
                     </li>
                 </ul>
             </nav>
@@ -55,17 +55,29 @@
     </header>
     <section>
         <div class="formdiv">
-            <form action="" class="form">
-                <input class="lname" type="text" id="firstname" placeholder="Your first name">
-                <input class="lname lastn" type="text" id="lastname" placeholder="Your last name">
-                <div class="name">
-                    <input class="email" type="email" id="email" placeholder="Your email address">
+            <form action="" class="form" id="form" method="POST">
+                <div class="lnamespan">
+                        <div>
+                            <input class="lname" type="text" id="firstname" placeholder="Your first name">
+                            <span class="errortext" id="error_fname"></span>
+                        </div>
+                    <div>
+                        <input class="lname lastn" type="text" id="lastname" name="lname" placeholder="Your last name">
+                        <span class="errortext erortext" id="error_lname"></span>
+                    </div>
                 </div>
                 <div class="name">
-                    <input class="number" type="number" id="numb" placeholder="Your phone number">
+                    <input class="email" type="email" id="email" placeholder="Your email address" onkeydown="validation()" >
+                </div>
+                <span class="errortext" id="error_email"></span>
+                <div class="name">
+                    <input class="number" type="tel" id="numb" placeholder="Your phone number"/>
+                    <span class="errortext" id="errornumber"></span>
+                    <span class="errortext" id="errornumb"></span>
                 </div>
                 <div class="name">
                     <textarea class="text" name="text" id="textarea" placeholder="Your message"></textarea>
+                    <span class="errortext" id="error_text"></span>
                 </div>
                 <button class="button" type="submit">Send Message</button>
             </form>
@@ -174,4 +186,5 @@
         <p class="footer-p">Copyright ©2022. All Rights Reserved. — Created by Khatia Chubinidze</p>
     </footer>
     <script src="burger.js"></script>
+    <script src="form.js"></script>
 </body>
