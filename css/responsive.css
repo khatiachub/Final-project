@@ -96,6 +96,10 @@
     }
     .touchtitle{
         font-size: 25px;
+       
+    }
+    .touch-wraper{
+        margin-top: 30vh;
     }
 }
 @media(max-width:1250px){

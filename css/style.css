@@ -458,12 +458,14 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-top: 10%;
+    margin-top: 20%;
 }
 .touchtitle{
     font-size: 40px;
     color: white;
     font-family: 'Josefin Sans';
+    text-align: center;
+
 }
 .touchdiv{
     width: 120px;
