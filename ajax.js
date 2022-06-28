@@ -45,18 +45,7 @@ function createTags(item){
     imageTag.appendChild(imagess);
     teamBlock.appendChild(imageTag);
 }
-// function fragmentt(item){
-//     let list=document.createElement('ul');
-//     let ulLi=document.createElement('li')
-//     ulLi.textContent=item.name;
-//     let fragment=document.createDocumentFragment();
-//     fragment.appendChild(ulLi);
-//     list.appendChild(fragment);
-//     teamBlock.appendChild(list)
-//  }
-// dataTeam.forEach(item => {
-//     fragmentt(item)
-// });
+
 ajax();
 
 
